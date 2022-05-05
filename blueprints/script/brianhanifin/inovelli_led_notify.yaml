@@ -42,6 +42,7 @@ blueprint:
         number:
           min: 0
           max: 10
+          mode: slider
     input_effect:
       name: Effect
       description: Choose an effect.
