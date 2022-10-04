@@ -38,6 +38,11 @@ blueprint:
       name: Brightness level
       description: Value from 0 (off) to 10 (100% brightness).
       default: 8
+      selector:
+        number:
+          min: 0
+          max: 10
+          mode: slider
     input_effect:
       name: Effect
       description: Choose an effect.
